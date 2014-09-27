@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from btle import Peripheral,BTLEException
 import struct
 import math
