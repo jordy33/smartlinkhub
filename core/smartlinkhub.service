@@ -1,0 +1,8 @@
+[Unit]
+Description=Smartlink hub 
+
+[Service]
+WorkingDirectory=/root/smartlinkhub/core
+ExecStart=/root/smartlinkhub/core/smartlinkhub.py
+[Install]
+WantedBy=multi-user.target 
